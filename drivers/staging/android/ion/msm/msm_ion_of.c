@@ -12,7 +12,10 @@
 #include <linux/of_address.h>
 #include <linux/dma-contiguous.h>
 #include <linux/cma.h>
+#include <uapi/linux/ion.h>
+#include <uapi/linux/msm_ion.h>
 #include "../ion.h"
+#include "../ion_kernel.h"
 
 #define ION_COMPAT_STR	"qcom,msm-ion"
 

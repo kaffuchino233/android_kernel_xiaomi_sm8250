@@ -34,6 +34,8 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/ion.h>
 #include <soc/qcom/secure_buffer.h>
+#include <uapi/linux/ion.h>
+#include <uapi/linux/msm_ion.h>
 
 #include "ion.h"
 #include "ion_secure_util.h"
